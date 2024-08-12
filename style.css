@@ -130,7 +130,7 @@ body {
   background-color: #e5f6fc;
   display: block;
   margin: auto;
-  border-radius: 8cqi;
+  border-radius: 8%;
   position: absolute;
   height: 75%;
   width: 80%;
@@ -201,5 +201,22 @@ body {
 }
 
 #dpadHorizontal {
-    cursor: pointer;
+  cursor: pointer;
+  background-color: #404040;
+  height: 80px;
+  width: 23px;
+  display: block;
+  position: absolute;
+  top: 32%;
+  right: 16%;
+}
+#dpadVertical {
+  cursor: pointer;
+  background-color: #404040;
+  height: 23px;
+  width: 80px;
+  display: block;
+  position: absolute;
+  top: 42%;
+  right: 8%;
 }
